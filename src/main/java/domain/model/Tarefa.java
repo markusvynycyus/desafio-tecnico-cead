@@ -5,6 +5,7 @@ import domain.enumeration.Prioridade;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "tarefa")
 public class Tarefa {
 
     @Id
